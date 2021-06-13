@@ -1,0 +1,56 @@
+#titre {
+    color: red;
+    text-align: center;
+    font-size: 300%;
+    margin-top: 150px;
+    margin-bottom: 7%;
+}
+p{
+    font-size: large;
+}
+.st {
+    font-stretch: bold;
+    font-size: 180%;
+    text-align: center;
+    align-items: center;
+}
+
+#cases {
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    position: relative;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+#info1 {
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+}
+
+.img {
+    display: inline-block;
+    text-align: center;
+    width: 15vw;
+}
+
+#info2 {
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+}
+
+.para {
+    font-size: 100%;
+    margin-left: 1%;
+}
+
+a {
+    text-decoration: none;
+}
+span{
+   color: red;
+}

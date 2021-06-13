@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8" />
+    <meta name="description" content="Site perso" />
+    <meta name="keywords" content="mmi, pablo gaudry" />
+    <meta name="date-de-creation" content="02/10/2020" />
+    <meta name="author" content="pablo gaudry" />
+    <title>Contact
+    </title>
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="csspagedecontact.css" />
+
+</head>
+
+<body>
+    <nav class="menu">
+        <ul id="top_menu">
+            <li> <a href="accueil.html">Accueil</a> </li>
+            <li> <a href="cv.html">Mon CV</a> </li>
+            <li> <a href="page de contact.html">Contact</a> </li>
+            <li> <a href="portfolio.html">Portfolio</a> </li>
+    </ul>
+</nav>
+
+    <!-- Formulaire -->
+
+    <div class="formulaire">
+        <form method="post" enctype="text/plain" action="mailto:pablogaudry31@gmail.com">
+
+            <label class="caption" for="fnom">Nom</label>
+            <br>
+            <input class="txt" type="text" id="fnom" name=" Nom " placeholder="Nom"></input>
+            <br>
+
+            <label class="caption" for="fprenom">Prénom</label>
+            <br>
+            <input class="txt" type="text" id="fprenom" name=" Prenom " placeholder="Prénom"></input>
+            <br>
+
+            <label class="caption" for="fmail">Mail</label>
+            <br>
+            <input class="txt" type="text" id="fmail" name=" Mail " placeholder="Adresse mail"></input>
+            <br>
+
+            <label class="caption" for="raison">Raison</label>
+            <br>
+            <select name=" Raison du mail " id="select">
+                <option value=""> -- Choisir la raison -- </option>
+                <option value="Partenariat"> Partenariat </option>
+                <option value="Personelle"> Personelle </option>
+                <option value="Professionelle"> Professionelle </option>
+                <option value="Renseignements"> Renseignements </option>
+            </select>
+
+            <br>
+            <label class="caption" for="message">Message</label>
+            <br>
+            <textarea rows="10" cols="50" name=" Message " placeholder="Entrez votre message"></textarea>
+
+            <!-- Boutons envoyer/effacer -->
+
+            <br>
+            <button class="envoyer" type="submit" style="vertical-align:middle"> Valider </button>
+            <button class="effacer" type="reset" style="vertical-align:middle"> Effacer </button>
+
+        </form>
+    </div>
+
+    <br><br>
+
+
+
+
+</body>
